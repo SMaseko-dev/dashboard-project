@@ -1,0 +1,38 @@
+body{
+    display: grid;
+    grid-template-columns: 18vw auto;
+    grid-template-rows: 100vh;
+    margin: 0;
+}
+
+.sidebar{
+    width: 15vw;
+    height: 100vh;
+}
+
+.page{
+    display: grid;
+    grid-template-rows: 20vh 3fr;
+    height: 100vh;
+}
+
+.header{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+
+.header-section-one{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-section-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-pic-greeting{
+    display: flex;
+    flex-direction: row;
+}
